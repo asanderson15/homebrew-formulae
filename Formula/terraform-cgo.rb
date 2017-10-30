@@ -3,8 +3,8 @@ require "language/go"
 class TerraformCgo < Formula
   desc "Tool to build, change, and version infrastructure"
   homepage "https://www.terraform.io/"
-  url "https://github.com/hashicorp/terraform/archive/v0.9.6.tar.gz"
-  sha256 "2af004ee5a155317e6df0158a5d9121d15aa349202ca7d7dd8321f2d9af2218c"
+  url "https://github.com/hashicorp/terraform/archive/v0.10.7.tar.gz"
+  sha256 "ebfb0eb203551485f522ac5894ba04f5c8cc20cb0810a8914fd33c0a8367c884"
   head "https://github.com/hashicorp/terraform.git"
 
   depends_on "go" => :build
