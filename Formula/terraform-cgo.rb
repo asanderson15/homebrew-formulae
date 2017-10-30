@@ -4,7 +4,7 @@ class TerraformCgo < Formula
   desc "Tool to build, change, and version infrastructure"
   homepage "https://www.terraform.io/"
   url "https://github.com/hashicorp/terraform/archive/v0.10.7.tar.gz"
-  sha256 "ebfb0eb203551485f522ac5894ba04f5c8cc20cb0810a8914fd33c0a8367c884"
+  sha256 "4959ace3c3c350d4121e235ba64771f94e5d5a4a6acdd5bce1c053a417283938"
   head "https://github.com/hashicorp/terraform.git"
 
   depends_on "go" => :build
